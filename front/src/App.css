@@ -315,21 +315,16 @@ button:hover{
   margin: 0px;
 }
 
-.EmojiEventsOutlinedIcon{
-  margin: 0px 15px 0px 15px;
-}
-.score{
-  color: white;
-  font-size: medium;
-  margin: 0px;
-}
 .achievementbar{
-  background-color:rgb(230, 242, 66);
+  float: left;
+  border: 2px solid rgb(255, 255, 255);
+  background-color:rgb(238, 255, 0);
   border-radius: 150px 150px 150px 150px;
+  justify-content: center;
   box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.196);
-  width: 120px;
-  height: 30px;
-  margin: 15px 200px 15px 15px;
+  width: 260px;
+  height: 25px;
+  margin: 15px 20px 15px 5px;
   transition: 0.3s;
 }
 .achievementbar:hover{
@@ -339,9 +334,10 @@ button:hover{
   transition: 0.3s;
 }
 .logoutbutton{
-  height: 29px;
+  float:right;
+  height: 28px;
   border-radius: 5px 5px 5px 5px;
-  width: 80px;
+  width: 40px;
   margin: 15px 15px 15px 15px;
   transition: 0.3s;
 }
